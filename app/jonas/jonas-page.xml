@@ -1,0 +1,9 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+<StackLayout>
+  <Label text="Divder example" class="h1"/>
+  <Label text="What did the second hand say to the hour hand as it passed by?" class="h2" textWrap="true"/>
+  <StackLayout class="hr m-10"></StackLayout>
+  <Label text="See you again in a minute." class="h2"/>
+</StackLayout>
+
+</Page>
