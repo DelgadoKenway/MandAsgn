@@ -1,9 +1,29 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd">
+  <ActionBar>
+    <ActionBar.actionItems>
+      <ActionItem>
+        <ActionItem.actionView>
+          <StackLayout orientation="horizontal">
+            <Label text="Home" color="green"/>
+            <Label text="About" color="red"/>
+          </StackLayout>
+        </ActionItem.actionView>
+      </ActionItem>
+    </ActionBar.actionItems>
+  </ActionBar>
 <StackLayout>
-  <Label text="Divder example" class="h1"/>
+  <Label text="Divder example" class="h1 c-bg-sky"/>
   <Label text="What did the second hand say to the hour hand as it passed by?" class="h2" textWrap="true"/>
   <StackLayout class="hr m-10"></StackLayout>
   <Label text="See you again in a minute." class="h2"/>
+  <StackLayout class="hr m-10"></StackLayout>
+  <Label text="Utilites example" class="h1"/>
+  <StackLayout class="bg-danger">
+    <Label class="pull-left h3" text="Left!"/>
+  </StackLayout>
+  <StackLayout class="bg-primary">
+    <Label text="right!" class="pull-right h3"/>
+  </StackLayout>
 </StackLayout>
 
 </Page>
