@@ -1,3 +1,34 @@
 <Page>
-<Label text="My new page" class="h1 text-center"/>
+<ActionBar title="Jakob" icon=""></ActionBar>
+<StackLayout>
+<Label class="h2" text="Headings"></Label>
+<Label class="h1" text="This is a h1 heading"></Label>
+<Label class="h2" text="This is a h2 heading"></Label>
+<Label class="h3" text="This is a h3 heading"></Label>
+<Label class="h4" text="This is a h4 heading"></Label>
+<Label class="h5" text="This is a h5 heading"></Label>
+<Label class="h6" text="This is a h6 heading"></Label>
+
+<Label class="h2" text="Text"></Label>
+<Label class="body" text="This is how text looks having the class body" textWrap="true"></Label>
+<Label class="footnote" text="This is how text looks having the class footnote"></Label>
+
+<Label class="text-left" text="This text has the text-left class"></Label>
+<Label class="text-right" text="This text has the text-right class"></Label>
+<Label class="text-center" text="This text has the text-center class"></Label>
+
+<Label class="text-lowercase" text="This text has the text-lowercase class"></Label>
+<Label class="text-uppercase" text="This text has the text-uppercase class"></Label>
+<Label class="text-capitalize" text="This text has the text-capitalize class"></Label>
+
+<Label class="h2" text="Font"></Label>
+<Label class="font-weight-normal" text="This text has the font-weight-normal class"></Label>
+<Label class="font-weight-bold" text="This text has the font-weight-bold class"></Label>
+<Label class="font-italic" text="This text has the font-italic class"></Label>
+
+<Label class="h2" text="Padding and Margin"></Label>
+<Label class="body" text="The class names follow a convention of margin/padding - top/bottom/left/right - amount. So for example, class='m-t-2' renders margin-top of 2, and class='p-b-5' renders padding-bottom of 5." textWrap="true"></Label>
+<Label class="body" text="The accepted values are 0, 2, 5, 10, 15, 20, 25, 30" textWrap="true"></Label>
+<Label class="body m-l-20" text="This text has m-l-20" textWrap="true"></Label>
+</StackLayout>
 </Page>
