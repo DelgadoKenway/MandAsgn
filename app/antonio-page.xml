@@ -1,43 +1,34 @@
-<Page>
-  <Button class="-outline" text="This is a button"></Button>
-
+<Page xmlns="http://schemas.nativescript.org/tns.xsd">
   <StackLayout class="nt-form">
     <!-- Option 1: An input with no label, and a bottom border -->
     <StackLayout class="nt-input">
-        <TextField hint="Option 1"></TextField>
+        <TextField hint="Form 1"></TextField>
     </StackLayout>
 
     <!-- Option 2: An input with a label on top, and a bottom border -->
     <StackLayout class="nt-input">
-        <Label text="Option 2" class="font-weight-bold m-b-5" />
+        <Label text="Form 2" class="font-weight-bold m-b-5" />
         <TextField></TextField>
     </StackLayout>
 
     <!-- Option 3: An label and input—positioned side by side -->
     <GridLayout class="nt-input -sides" rows="auto, auto" columns="*,*">
-        <Label text="Option 3" class="font-weight-bold" row="0" col="0" />
+        <Label text="Form 3" class="font-weight-bold" row="0" col="0" />
         <TextField row="0" col="1"/>
         <StackLayout class="hr" row="1" colSpan="2"></StackLayout>
     </GridLayout>
 
     <!-- Option 4: An input with a simple border and no label -->
-    <TextField hint="Option 4" class="-border" />
+    <TextField hint="Form 4" class="-border" />
 
     <!-- Option 5: An input with a rounded border and no label -->
-    <TextField hint="Rounded" class="-rounded m-t-10" />
+    <TextField hint="Rounded Form" class="-rounded m-t-10" />
+
+    <Button class="-primary" text="This is a button"></Button>
+
+    <Image src="https://earthbath.com/wp-content/uploads/2012/08/happy.jpg" width="300" class="img-rounded m-b-20"></Image>
+
+
 </StackLayout>
-
-
-<Image src="https://placem.at/people?w=150" width="150" class="img-rounded m-b-20"></Image>
-<Image src="https://placem.at/things?w=150" width="150" class="img-circle"></Image>
-
-
-<ListView items="">
-    <ListView.itemTemplate>
-        <StackLayout class="-separator">
-            <Image src="https://placem.at/things?w=150" class="-thumb img-circle"></Image>
-        </StackLayout>
-    </ListView.itemTemplate>
-</ListView>
 
 </Page>
