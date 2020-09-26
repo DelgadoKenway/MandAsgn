@@ -1,4 +1,4 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+<Page>
   <Button class="-outline" text="This is a button"></Button>
 
   <StackLayout class="nt-form">
