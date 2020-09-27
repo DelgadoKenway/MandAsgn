@@ -1,0 +1,70 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+   
+    <ActionBar title="Safwan" icon=""></ActionBar>
+
+  
+    <StackLayout class="p-10">
+       
+         <!-- Switch-->
+        
+        <Switch color="yellow" backgroundColor="green" offBackgroundColor="green"/>
+        <Switch color="red" backgroundColor="green" offBackgroundColor="white"/>
+        <!--  Progress-->
+        <border>    </border>
+   
+<Progress value="50" maxValue="100" backgroundColor="red" color="green"></Progress>
+
+<Progress value="25" maxValue="100" class="progress" color="red"></Progress>
+<Progress value="60" maxValue="100" class="progress" color="blue"></Progress>
+
+   <!-- slider-->
+<Slider value="10" minValue="0" maxValue="100"
+        backgroundColor="green" color="red">
+</Slider>
+
+  <!--  Tab-->
+
+<Tabs selectedIndex="1">
+
+  
+    <TabStrip>
+        <TabStripItem>
+            <Label text="Home"></Label>
+            <Image src="font://&#xf015;" class="fas"></Image>
+        </TabStripItem>
+        <TabStripItem class="special">
+            <Label text="Account"></Label>
+            <Image src="font://&#xf007;" class="fas"></Image>
+        </TabStripItem>
+        <TabStripItem class="special">
+            <Label text="Search"></Label>
+            <Image src="font://&#xf00e;" class="fas"></Image>
+        </TabStripItem>
+    </TabStrip>
+
+   
+    <TabContentItem>
+        <GridLayout>
+            <Label text="Home Page" class="h2 text-center"></Label>
+        </GridLayout>
+    </TabContentItem>
+    <TabContentItem>
+        <GridLayout>
+            <Label text="Account Page" class="h2 text-center"></Label>
+        </GridLayout>
+    </TabContentItem>
+    <TabContentItem>
+        <GridLayout>
+            <Label text="Search Page" class="h2 text-center"></Label>
+        </GridLayout>
+    </TabContentItem>
+
+</Tabs>
+
+    </StackLayout>
+
+
+
+
+</Page>
+
