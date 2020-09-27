@@ -1,13 +1,13 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+<Page loaded="onLoaded" xmlns="http://schemas.nativescript.org/tns.xsd">
 
 <StackLayout orientation="vertical" width="210" height="250">
-    <Button class="-primary" text="Jonas"></Button>
+    <Button class="-primary" text="Jonas" tap="onTap"></Button>
 
-    <Button class="-primary" text="Antonio"></Button>
+    <Button class="-primary"  text="Antonio" tap="onTap2"  ></Button>
 
-    <Button class="-primary" text="Jakob"></Button>
+    <Button class="-primary" text="Jakob" tap="onTap3"></Button>
 
-    <Button class="-primary" text="Safwan"></Button>
+    <Button class="-primary" text="Safwan" tap="onTap4" ></Button>
   </StackLayout>
 
 

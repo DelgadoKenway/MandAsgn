@@ -28,6 +28,8 @@
 
     <Image src="https://earthbath.com/wp-content/uploads/2012/08/happy.jpg" width="300" class="img-rounded m-b-20"></Image>
 
+    <Button text="Navigate back" tap="onTap2"></Button>
+
 
 </StackLayout>
 

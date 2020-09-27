@@ -24,6 +24,8 @@
   <StackLayout class="bg-primary">
     <Label text="right!" class="pull-right h3"/>
   </StackLayout>
+
+  <Button text="Navigate back" tap="onTap"></Button>
 </StackLayout>
 
 </Page>
